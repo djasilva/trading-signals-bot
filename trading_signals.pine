@@ -1,0 +1,202 @@
+//@version=5
+indicator("Bot de Sinais BTC/ETH - RSI + EMA + Reversão", shorttitle="Sinais Trading", overlay=true)
+
+// ============================================================================
+// CONFIGURAÇÕES
+// ============================================================================
+
+// Parâmetros RSI
+rsi_length = input.int(14, title="RSI Período", minval=1)
+rsi_oversold = input.int(30, title="RSI Sobrevenda", minval=1, maxval=50)
+rsi_overbought = input.int(70, title="RSI Sobrecompra", minval=50, maxval=99)
+
+// Parâmetros EMA
+ema_fast = input.int(9, title="EMA Rápida", minval=1)
+ema_slow = input.int(21, title="EMA Lenta", minval=1)
+
+// Configurações visuais
+show_ema = input.bool(true, title="Mostrar EMAs")
+show_signals = input.bool(true, title="Mostrar Sinais")
+show_rsi_levels = input.bool(true, title="Mostrar Níveis RSI")
+
+// ============================================================================
+// CÁLCULOS DOS INDICADORES
+// ============================================================================
+
+// RSI
+rsi = ta.rsi(close, rsi_length)
+
+// EMAs
+ema9 = ta.ema(close, ema_fast)
+ema21 = ta.ema(close, ema_slow)
+
+// ============================================================================
+// DETECÇÃO DE PADRÕES DE REVERSÃO
+// ============================================================================
+
+// Função para detectar candle de reversão para compra
+is_bullish_reversal() =>
+    // Candle verde após sequência de queda
+    prev_down_trend = close[3] > close[2] and close[2] > close[1]
+    current_green = close > open
+    current_higher = close > close[1]
+    prev_down_trend and current_green and current_higher
+
+// Função para detectar candle de reversão para venda
+is_bearish_reversal() =>
+    // Candle vermelho após sequência de alta
+    prev_up_trend = close[3] < close[2] and close[2] < close[1]
+    current_red = close < open
+    current_lower = close < close[1]
+    prev_up_trend and current_red and current_lower
+
+// ============================================================================
+// CONDIÇÕES DE SINAL
+// ============================================================================
+
+// Condições para COMPRA (todos os critérios devem ser atendidos)
+buy_rsi_condition = rsi < rsi_oversold
+buy_ema_condition = ema9 > ema21
+buy_reversal_condition = is_bullish_reversal()
+buy_signal = buy_rsi_condition and buy_ema_condition and buy_reversal_condition
+
+// Condições para VENDA (todos os critérios devem ser atendidos)
+sell_rsi_condition = rsi > rsi_overbought
+sell_ema_condition = ema9 < ema21
+sell_reversal_condition = is_bearish_reversal()
+sell_signal = sell_rsi_condition and sell_ema_condition and sell_reversal_condition
+
+// ============================================================================
+// PLOTAGEM DOS INDICADORES
+// ============================================================================
+
+// EMAs
+plot(show_ema ? ema9 : na, title="EMA 9", color=color.blue, linewidth=2)
+plot(show_ema ? ema21 : na, title="EMA 21", color=color.orange, linewidth=2)
+
+// ============================================================================
+// PLOTAGEM DOS SINAIS
+// ============================================================================
+
+// Sinais de compra
+plotshape(
+    show_signals and buy_signal, 
+    title="Sinal de Compra", 
+    location=location.belowbar, 
+    color=color.green, 
+    style=shape.triangleup, 
+    size=size.normal,
+    text="BUY"
+)
+
+// Sinais de venda
+plotshape(
+    show_signals and sell_signal, 
+    title="Sinal de Venda", 
+    location=location.abovebar, 
+    color=color.red, 
+    style=shape.triangledown, 
+    size=size.normal,
+    text="SELL"
+)
+
+// ============================================================================
+// PAINEL DE INFORMAÇÕES
+// ============================================================================
+
+// Criar tabela com informações
+var table info_table = table.new(position.top_right, 3, 6, bgcolor=color.white, border_width=1)
+
+if barstate.islast
+    // Cabeçalho
+    table.cell(info_table, 0, 0, "Indicador", text_color=color.black, bgcolor=color.gray)
+    table.cell(info_table, 1, 0, "Valor", text_color=color.black, bgcolor=color.gray)
+    table.cell(info_table, 2, 0, "Status", text_color=color.black, bgcolor=color.gray)
+    
+    // RSI
+    rsi_color = rsi < rsi_oversold ? color.green : rsi > rsi_overbought ? color.red : color.yellow
+    rsi_status = rsi < rsi_oversold ? "Sobrevenda" : rsi > rsi_overbought ? "Sobrecompra" : "Neutro"
+    table.cell(info_table, 0, 1, "RSI", text_color=color.black)
+    table.cell(info_table, 1, 1, str.tostring(rsi, "#.##"), text_color=color.black)
+    table.cell(info_table, 2, 1, rsi_status, text_color=color.white, bgcolor=rsi_color)
+    
+    // EMA 9
+    table.cell(info_table, 0, 2, "EMA 9", text_color=color.black)
+    table.cell(info_table, 1, 2, str.tostring(ema9, "#.##"), text_color=color.black)
+    table.cell(info_table, 2, 2, "", text_color=color.black)
+    
+    // EMA 21
+    table.cell(info_table, 0, 3, "EMA 21", text_color=color.black)
+    table.cell(info_table, 1, 3, str.tostring(ema21, "#.##"), text_color=color.black)
+    table.cell(info_table, 2, 3, "", text_color=color.black)
+    
+    // Tendência EMA
+    ema_trend = ema9 > ema21 ? "Alta" : "Baixa"
+    ema_color = ema9 > ema21 ? color.green : color.red
+    table.cell(info_table, 0, 4, "Tendência", text_color=color.black)
+    table.cell(info_table, 1, 4, ema_trend, text_color=color.white, bgcolor=ema_color)
+    table.cell(info_table, 2, 4, "", text_color=color.black)
+    
+    // Último sinal
+    last_signal = buy_signal ? "COMPRA" : sell_signal ? "VENDA" : "Nenhum"
+    signal_color = buy_signal ? color.green : sell_signal ? color.red : color.gray
+    table.cell(info_table, 0, 5, "Último Sinal", text_color=color.black)
+    table.cell(info_table, 1, 5, last_signal, text_color=color.white, bgcolor=signal_color)
+    table.cell(info_table, 2, 5, "", text_color=color.black)
+
+// ============================================================================
+// ALERTAS
+// ============================================================================
+
+// Alertas para sinais de compra
+alertcondition(
+    buy_signal, 
+    title="Sinal de Compra", 
+    message="🟢 SINAL DE COMPRA DETECTADO!\n" +
+            "RSI: {{plot_0}}\n" +
+            "EMA 9: {{plot_1}}\n" +
+            "EMA 21: {{plot_2}}\n" +
+            "Preço: {{close}}\n" +
+            "Horário: {{time}}"
+)
+
+// Alertas para sinais de venda
+alertcondition(
+    sell_signal, 
+    title="Sinal de Venda", 
+    message="🔴 SINAL DE VENDA DETECTADO!\n" +
+            "RSI: {{plot_0}}\n" +
+            "EMA 9: {{plot_1}}\n" +
+            "EMA 21: {{plot_2}}\n" +
+            "Preço: {{close}}\n" +
+            "Horário: {{time}}"
+)
+
+// Alerta geral
+alertcondition(
+    buy_signal or sell_signal, 
+    title="Qualquer Sinal", 
+    message="⚡ NOVO SINAL DETECTADO!\n" +
+            "Tipo: " + (buy_signal ? "COMPRA" : "VENDA") + "\n" +
+            "Símbolo: {{ticker}}\n" +
+            "Preço: {{close}}\n" +
+            "RSI: " + str.tostring(rsi, "#.##") + "\n" +
+            "Horário: {{time}}"
+)
+
+// ============================================================================
+// BACKGROUND PARA ZONAS RSI
+// ============================================================================
+
+// Colorir fundo quando RSI está em zonas extremas
+bgcolor(show_rsi_levels and rsi < rsi_oversold ? color.new(color.green, 95) : na, title="Zona de Sobrevenda")
+bgcolor(show_rsi_levels and rsi > rsi_overbought ? color.new(color.red, 95) : na, title="Zona de Sobrecompra")
+
+// ============================================================================
+// COMENTÁRIOS E INFORMAÇÕES
+// ============================================================================
+
+// Plotar valores para debug (invisíveis)
+plot(rsi, title="RSI Value", display=display.none)
+plot(ema9, title="EMA 9 Value", display=display.none)
+plot(ema21, title="EMA 21 Value", display=display.none)
