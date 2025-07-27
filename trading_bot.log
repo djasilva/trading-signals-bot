@@ -173,3 +173,292 @@
 2025-07-27 16:04:30,517 - INFO -    EMA 9: 2275.42
 2025-07-27 16:04:30,517 - INFO -    EMA 21: 2298.40
 2025-07-27 16:04:30,517 - INFO -    Últimos 4 closes: [2256.07083805 2278.63154643 2324.20417736 2277.72009381]
+2025-07-27 16:29:42,023 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-27 16:29:42,024 - INFO - Bot iniciado com sucesso!
+2025-07-27 16:29:42,024 - INFO - Iniciando monitoramento de sinais...
+2025-07-27 16:29:42,024 - INFO - Analisando BTC-USD...
+2025-07-27 16:29:42,024 - INFO - Tentando obter dados para BTC-USD...
+2025-07-27 16:29:42,038 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,051 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:42,063 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,082 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:42,093 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,110 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:42,122 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,142 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:42,153 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,153 - ERROR - BTC-USD: No timezone found, symbol may be delisted
+2025-07-27 16:29:42,154 - INFO - Tentando obter dados para BTCUSD=X...
+2025-07-27 16:29:42,164 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,175 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:42,190 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,201 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:42,217 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,229 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:42,241 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,253 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:42,264 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,265 - ERROR - BTCUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:29:42,265 - INFO - Tentando obter dados para BTC=F...
+2025-07-27 16:29:42,277 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,288 - ERROR - BTC=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:42,298 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,310 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:42,320 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,333 - ERROR - BTC=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:42,344 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,356 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:42,369 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,369 - ERROR - BTC=F: No timezone found, symbol may be delisted
+2025-07-27 16:29:42,370 - INFO - Tentando obter dados para BTCUSDT=X...
+2025-07-27 16:29:42,382 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,393 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:42,405 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,417 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:42,430 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,447 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:42,458 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,471 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:42,489 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:42,490 - ERROR - BTCUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:29:42,490 - WARNING - ⚠️ Não foi possível obter dados reais para BTC-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:29:42,491 - INFO - 📊 Dados simulados gerados para BTC-USD: 100 candles
+2025-07-27 16:29:44,496 - INFO - Analisando ETH-USD...
+2025-07-27 16:29:44,496 - INFO - Tentando obter dados para ETH-USD...
+2025-07-27 16:29:44,508 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,524 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:44,535 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,547 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:44,560 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,575 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:44,593 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,608 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:44,620 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,620 - ERROR - ETH-USD: No timezone found, symbol may be delisted
+2025-07-27 16:29:44,620 - INFO - Tentando obter dados para ETHUSD=X...
+2025-07-27 16:29:44,637 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,650 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:44,661 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,671 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:44,684 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,695 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:44,707 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,718 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:44,730 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,731 - ERROR - ETHUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:29:44,731 - INFO - Tentando obter dados para ETH=F...
+2025-07-27 16:29:44,749 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,761 - ERROR - ETH=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:44,773 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,784 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:44,795 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,805 - ERROR - ETH=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:44,817 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,829 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:44,838 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,839 - ERROR - ETH=F: No timezone found, symbol may be delisted
+2025-07-27 16:29:44,839 - INFO - Tentando obter dados para ETHUSDT=X...
+2025-07-27 16:29:44,870 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,883 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:29:44,894 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,908 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:29:44,932 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,948 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:29:44,962 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,974 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:29:44,985 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:29:44,985 - ERROR - ETHUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:29:44,985 - WARNING - ⚠️ Não foi possível obter dados reais para ETH-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:29:44,987 - INFO - 📊 Dados simulados gerados para ETH-USD: 100 candles
+2025-07-27 16:29:46,991 - INFO - Aguardando próxima verificação...
+2025-07-27 16:30:47,003 - INFO - Analisando BTC-USD...
+2025-07-27 16:30:47,004 - INFO - Tentando obter dados para BTC-USD...
+2025-07-27 16:30:47,015 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,027 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:47,040 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,051 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:47,062 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,079 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:47,095 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,108 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:47,127 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,127 - ERROR - BTC-USD: No timezone found, symbol may be delisted
+2025-07-27 16:30:47,127 - INFO - Tentando obter dados para BTCUSD=X...
+2025-07-27 16:30:47,139 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,151 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:47,161 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,176 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:47,193 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,204 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:47,216 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,232 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:47,243 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,244 - ERROR - BTCUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:30:47,244 - INFO - Tentando obter dados para BTC=F...
+2025-07-27 16:30:47,264 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,279 - ERROR - BTC=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:47,291 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:47,302 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:47,314 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,255 - ERROR - BTC=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:48,268 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,280 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:48,292 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,293 - ERROR - BTC=F: No timezone found, symbol may be delisted
+2025-07-27 16:30:48,293 - INFO - Tentando obter dados para BTCUSDT=X...
+2025-07-27 16:30:48,310 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,327 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:48,337 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,349 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:48,360 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,376 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:48,387 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,398 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:48,410 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:48,410 - ERROR - BTCUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:30:48,410 - WARNING - ⚠️ Não foi possível obter dados reais para BTC-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:30:48,411 - INFO - 📊 Dados simulados gerados para BTC-USD: 100 candles
+2025-07-27 16:30:50,414 - INFO - Analisando ETH-USD...
+2025-07-27 16:30:50,414 - INFO - Tentando obter dados para ETH-USD...
+2025-07-27 16:30:50,425 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,438 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:50,448 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,461 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:50,476 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,488 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:50,499 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,513 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:50,533 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,533 - ERROR - ETH-USD: No timezone found, symbol may be delisted
+2025-07-27 16:30:50,534 - INFO - Tentando obter dados para ETHUSD=X...
+2025-07-27 16:30:50,545 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,558 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:50,679 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,691 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:50,707 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,719 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:50,731 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,742 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:50,759 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,759 - ERROR - ETHUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:30:50,759 - INFO - Tentando obter dados para ETH=F...
+2025-07-27 16:30:50,770 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,782 - ERROR - ETH=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:50,794 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,805 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:50,815 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,828 - ERROR - ETH=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:50,840 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,851 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:50,864 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,864 - ERROR - ETH=F: No timezone found, symbol may be delisted
+2025-07-27 16:30:50,864 - INFO - Tentando obter dados para ETHUSDT=X...
+2025-07-27 16:30:50,878 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,890 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:30:50,917 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,930 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:30:50,941 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,952 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:30:50,964 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,982 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:30:50,994 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:30:50,994 - ERROR - ETHUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:30:50,994 - WARNING - ⚠️ Não foi possível obter dados reais para ETH-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:30:50,995 - INFO - 📊 Dados simulados gerados para ETH-USD: 100 candles
+2025-07-27 16:30:53,000 - INFO - Aguardando próxima verificação...
+2025-07-27 16:31:53,060 - INFO - Analisando BTC-USD...
+2025-07-27 16:31:53,060 - INFO - Tentando obter dados para BTC-USD...
+2025-07-27 16:31:53,072 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,091 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:53,102 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,119 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:53,132 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,145 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:53,157 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,167 - ERROR - BTC-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:53,179 - ERROR - Failed to get ticker 'BTC-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,179 - ERROR - BTC-USD: No timezone found, symbol may be delisted
+2025-07-27 16:31:53,180 - INFO - Tentando obter dados para BTCUSD=X...
+2025-07-27 16:31:53,191 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,204 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:53,323 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,343 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:53,356 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,369 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:53,383 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,410 - ERROR - BTCUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:53,432 - ERROR - Failed to get ticker 'BTCUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,432 - ERROR - BTCUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:31:53,433 - INFO - Tentando obter dados para BTC=F...
+2025-07-27 16:31:53,805 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,821 - ERROR - BTC=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:53,832 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,844 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:53,857 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,870 - ERROR - BTC=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:53,883 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,898 - ERROR - BTC=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:53,924 - ERROR - Failed to get ticker 'BTC=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,925 - ERROR - BTC=F: No timezone found, symbol may be delisted
+2025-07-27 16:31:53,925 - INFO - Tentando obter dados para BTCUSDT=X...
+2025-07-27 16:31:53,937 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,955 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:53,973 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:53,987 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:53,998 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:54,011 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:54,022 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:54,033 - ERROR - BTCUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:54,045 - ERROR - Failed to get ticker 'BTCUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:54,045 - ERROR - BTCUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:31:54,045 - WARNING - ⚠️ Não foi possível obter dados reais para BTC-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:31:54,046 - INFO - 📊 Dados simulados gerados para BTC-USD: 100 candles
+2025-07-27 16:31:56,050 - INFO - Analisando ETH-USD...
+2025-07-27 16:31:56,050 - INFO - Tentando obter dados para ETH-USD...
+2025-07-27 16:31:56,063 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,075 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:56,086 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,097 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:56,108 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,123 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:56,143 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,157 - ERROR - ETH-USD: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:56,172 - ERROR - Failed to get ticker 'ETH-USD' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,173 - ERROR - ETH-USD: No timezone found, symbol may be delisted
+2025-07-27 16:31:56,173 - INFO - Tentando obter dados para ETHUSD=X...
+2025-07-27 16:31:56,184 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,196 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:56,208 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,220 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:56,234 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,247 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:56,259 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,275 - ERROR - ETHUSD=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:56,291 - ERROR - Failed to get ticker 'ETHUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,292 - ERROR - ETHUSD=X: No timezone found, symbol may be delisted
+2025-07-27 16:31:56,292 - INFO - Tentando obter dados para ETH=F...
+2025-07-27 16:31:56,305 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,317 - ERROR - ETH=F: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:56,328 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,346 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:56,358 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,370 - ERROR - ETH=F: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:56,386 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,399 - ERROR - ETH=F: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:56,411 - ERROR - Failed to get ticker 'ETH=F' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,411 - ERROR - ETH=F: No timezone found, symbol may be delisted
+2025-07-27 16:31:56,411 - INFO - Tentando obter dados para ETHUSDT=X...
+2025-07-27 16:31:56,425 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,438 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=5d)
+2025-07-27 16:31:56,453 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,466 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1mo)
+2025-07-27 16:31:56,478 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,492 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=3mo)
+2025-07-27 16:31:56,505 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,519 - ERROR - ETHUSDT=X: No price data found, symbol may be delisted (period=1y)
+2025-07-27 16:31:56,531 - ERROR - Failed to get ticker 'ETHUSDT=X' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 16:31:56,531 - ERROR - ETHUSDT=X: No timezone found, symbol may be delisted
+2025-07-27 16:31:56,531 - WARNING - ⚠️ Não foi possível obter dados reais para ETH-USD. Gerando dados simulados para demonstração...
+2025-07-27 16:31:56,533 - INFO - 📊 Dados simulados gerados para ETH-USD: 100 candles
+2025-07-27 16:31:58,538 - INFO - Aguardando próxima verificação...
+2025-07-27 16:32:01,305 - INFO - Bot interrompido pelo usuário
