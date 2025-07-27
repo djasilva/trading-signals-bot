@@ -11,7 +11,7 @@ TELEGRAM_CONFIG = {
 # Configurações de Trading
 TRADING_CONFIG = {
     'SYMBOLS': ['BTC-USD', 'ETH-USD'],  # Símbolos padrão do Yahoo Finance
-    'TIMEFRAME': '1d',  # Mudando para 1 dia temporariamente para teste
+    'TIMEFRAME': '5m',  # Timeframe de 5 minutos conforme solicitado
     'CHECK_INTERVAL': 60,  # segundos
     'RSI_PERIOD': 14,
     'EMA_FAST': 9,
