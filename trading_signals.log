@@ -1,0 +1,13 @@
+2025-07-28 15:25:19,380 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-28 15:25:19,383 - INFO - Bot iniciado
+2025-07-28 15:25:20,322 - INFO - Binance client iniciado
+2025-07-28 15:25:20,617 - ERROR - Erro ao obter klines Binance BTC-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:25:20,699 - ERROR - Erro ao obter klines Binance ETH-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:25:20,699 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-28 15:26:21,135 - ERROR - Erro ao obter klines Binance ETH-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:26:21,137 - ERROR - Erro ao obter klines Binance BTC-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:26:21,138 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-28 15:27:21,619 - ERROR - Erro ao obter klines Binance BTC-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:27:21,623 - ERROR - Erro ao obter klines Binance ETH-USD 5m: APIError(code=-1121): Invalid symbol.
+2025-07-28 15:27:21,623 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-28 15:27:33,009 - INFO - Conexão Binance encerrada

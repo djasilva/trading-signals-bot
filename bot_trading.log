@@ -1,0 +1,70 @@
+2025-07-27 20:43:57,782 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-27 20:43:57,784 - INFO - Bot iniciado
+2025-07-27 20:47:14,597 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-27 20:47:14,598 - INFO - Bot iniciado
+2025-07-27 20:47:33,189 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-27 20:47:33,190 - INFO - Bot iniciado
+2025-07-27 20:50:13,546 - INFO - HTTP Request: POST https://api.telegram.org/bot7629404700:AAHrY8g7DHyz3-iI6nAzorPdAMDcbLvYRkI/sendMessage "HTTP/1.1 200 OK"
+2025-07-27 20:50:13,547 - INFO - Bot iniciado
+2025-07-27 20:50:14,619 - INFO - Binance client iniciado
+2025-07-27 20:50:15,765 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:50:15,901 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:50:15,901 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:50:16,037 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:50:16,160 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:50:16,161 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:50:16,299 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:50:16,440 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:50:16,441 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:50:16,907 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:51:17,191 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:51:17,331 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:51:17,332 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:51:17,453 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:51:17,593 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:51:17,594 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:51:17,716 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:51:17,836 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:51:17,837 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:51:18,370 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:52:18,535 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:52:18,656 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:52:18,656 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:52:18,777 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:52:18,923 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:52:18,924 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:52:19,044 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:52:19,164 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:52:19,165 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:52:20,748 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:53:20,897 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:53:21,036 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:53:21,036 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:53:21,158 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:53:21,299 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:53:21,300 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:53:21,423 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:53:21,542 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:53:21,543 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:53:24,961 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:54:25,192 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:54:25,334 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:54:25,334 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:54:25,457 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:54:25,579 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:54:25,580 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:54:25,725 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:54:25,865 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:54:25,866 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:54:27,708 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:55:27,868 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:55:28,021 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:55:28,021 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:55:28,163 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:55:28,283 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:55:28,284 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:55:28,413 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-07-27 20:55:28,554 - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-07-27 20:55:28,554 - WARNING - Yahoo Finance retornou dados vazios para AAPL
+2025-07-27 20:55:31,988 - INFO - Aguardando 60 segundos para próxima análise...
+2025-07-27 20:55:40,182 - INFO - Conexão Binance encerrada
